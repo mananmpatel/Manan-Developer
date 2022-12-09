@@ -1,139 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/0ea902ede5.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Portfolio</title>
-</head>
-<body>
-    <!-- navbar-->
-   <nav class="navbar">
-    <a class="navlink" href="#home"><strong>&lt;Manan/ &gt;</strong></a>
-    <div>
-        <a class="navlink" href="http://">About</a>
-        <a class="navlink" href="http://">Project</a>
-        <a class="navlink" href="http://">Skills</a>
-        <a class="navlink" href="http://">Contact Us</a>
+  </head>
+  <body>
+    <!--Navbar section-->
+    <nav class="fixed-top navbar">
+      <!-- Navbar brand-->
+      <a class="nav-link brand" href="#home"
+        ><strong>&lt;Manan/ &gt;</strong></a
+      >
+      <!-- Navbar items -->
+      <div class="nav-items">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#projects">Project</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#contact-us">Contact Us</a>
+      </div>
+    </nav>
+
+    <!-- HomePage Section -->
+    <div class="home-container" id="home">
+      <h1 class="name">Manan Patel</h1>
+      <div class="introduction">
+        Passionate Web Developer | Open Source Contributor
+      </div>
+      <div class="socials">
+        <a class="icon" href="https://github.com/mananmpatel" target="_blank"
+          ><i class="fab fa-github fa-3x"></i
+        ></a>
+        <a class="icon" href="http://" target="_blank"
+          ><i class="fab fa-twitter fa-3x"></i
+        ></a>
+        <a
+          class="icon"
+          href="https://instagram.com/manan_08_12?igshid=YmMyMTA2M2Y="
+          target="_blank"
+          ><i class="fab fa-instagram fa-3x"></i
+        ></a>
+        <a
+          class="icon"
+          href="https://www.linkedin.com/in/manan-patel-developer"
+          target="_blank"
+          ><i class="fab fa-linkedin fa-3x"></i
+        ></a>
+        <a class="icon" href="http://" target="_blank"
+          ><i class="fab fa-facebook fa-3x"></i
+        ></a>
+      </div>
+      <a class="btn" href="http://">More About Me</a>
     </div>
-   </nav>
-   <!-- home -->
-   <div class="home-container" id="home">
-    <h1 class="name">Manan Patel</h1>
-    <div class="intro">Passionate Web Developer | Open Source Contributor</div>
-    <div class="social">
-        <a class="icon" href="https://github.com/mananmpatel" target="_blank"><i class="fab fa-github fa-3x"></i></a>
-        <a class="icon" href="http://" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
-        <a class="icon" href="https://instagram.com/manan_08_12?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fab fa-instagram fa-3x" ></i></a>
-        <a class="icon" href="https://www.linkedin.com/in/manan-patel-developer" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
-        <a class="icon" href="http://" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
-    </div>
-    <a class="btn" href="http://">More About Me</a>
-   </div>
-   
-   <!-- about me -->
-   <div class="about center">
-        <div class="about_cont">
-            <div class="dp_cont center">
-                <img class="dp" src="assests/avatar-gdd4b6347a_1280.png" alt="profile picture">
-            </div>
-             <div class="sect_title center">
-                 <h2 class="abt_title">  
-                   About me
-                </h2>
-             </div>
-             <div class="about_para center">
-                 <p class="abt_para">
-                    My name is Manan Patel. I'm gradute of 2023 from GEC at Bhavnagar with a degree in Computer Engineering. I'm passsionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time, I like working on open source projects.
-                 </p>
-             </div>
-             <div class="resum_btn center">
-                <div class="res">
-                    Resume
-                </div>
-             </div>
+
+    <!-- about me -->
+    <div class="about center">
+      <div class="about_cont">
+        <div class="dp_cont center">
+          <img
+            class="dp"
+            src="assests/avatar-gdd4b6347a_1280.png"
+            alt="profile picture"
+          />
         </div>
-   </div>
-   <!-- projects -->
-   <div class="projects">
-    <div class="project_cont">
+        <div class="sect_title center">
+          <h2 class="abt_title">About me</h2>
+        </div>
+        <div class="about_para center">
+          <p class="abt_para">
+            My name is Manan Patel. I'm gradute of 2023 from GEC at Bhavnagar
+            with a degree in Computer Engineering. I'm passsionate about giving
+            back to the community, and my goal is to pursue this passion within
+            the field of software engineering. In my free time, I like working
+            on open source projects.
+          </p>
+        </div>
+        <div class="resum_btn center">
+          <div class="res">Resume</div>
+        </div>
+      </div>
+    </div>
+    <!-- projects -->
+    <div class="projects">
+      <div class="project_cont">
         <div class="proj_sect_title center">
-            <h2 class="proj_title">  
-              Projects
-           </h2>
+          <h2 class="proj_title">Projects</h2>
         </div>
         <div class="card_cont center">
-            <!-- card-->
-            <div class="card">
-                <div class="card_title center">
-                    Hello World
-                </div>
-                <div class="card_desc center">
-                    This is the program where we peint Hello World message. The Rules made thereunder, relevant circulars issued by the Ministry of Corporate Affairs and Regulation 44 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended and Secretarial Standard on General Meetings issued by the Institute of Company Secretaries of India.
-                </div>
-                <div class="github">
-                    Github Repo
-                </div>
+          <!-- card-->
+          <div class="card">
+            <div class="card_title center">Hello World</div>
+            <div class="card_desc center">
+              This is the program where we peint Hello World message. The Rules
+              made thereunder, relevant circulars issued by the Ministry of
+              Corporate Affairs and Regulation 44 of the Securities and Exchange
+              Board of India (Listing Obligations and Disclosure Requirements)
+              Regulations, 2015, as amended and Secretarial Standard on General
+              Meetings issued by the Institute of Company Secretaries of India.
+            </div>
+            <div class="github">Github Repo</div>
+          </div>
+
+          <!-- card-->
+          <div class="card">
+            <div class="card_title center">Hello World</div>
+            <div class="card_desc center">
+              This is the program where we peint Hello World message. The Rules
+              made thereunder, relevant circulars issued by the Ministry of
+              Corporate Affairs and Regulation 44 of the Securities and Exchange
+              Board of India (Listing Obligations and Disclosure Requirements)
+              Regulations, 2015, as amended and Secretarial Standard on General
+              Meetings issued by the Institute of Company Secretaries of India.
+            </div>
+            <div class="github">Github Repo</div>
+          </div>
+
+          <!-- card-->
+          <div class="card">
+            <div class="card_title center">Hello World</div>
+            <div class="card_desc center">
+              This is the program where we peint Hello World message. The Rules
+              made thereunder, relevant circulars issued by the Ministry of
+              Corporate Affairs and Regulation 44 of the Securities and Exchange
+              Board of India (Listing Obligations and Disclosure Requirements)
+              Regulations, 2015, as amended and Secretarial Standard on General
+              Meetings issued by the Institute of Company Secretaries of India.
+            </div>
+            <div class="github">Github Repo</div>
+          </div>
+
+          <!-- card-->
+          <div class="card">
+            <div class="card_title center">Hello World</div>
+            <div class="card_desc center">
+              This is the program where we peint Hello World message. The Rules
+              made thereunder, relevant circulars issued by the Ministry of
+              Corporate Affairs and Regulation 44 of the Securities and Exchange
+              Board of India (Listing Obligations and Disclosure Requirements)
+              Regulations, 2015, as amended and Secretarial Standard on General
+              Meetings issued by the Institute of Company Secretaries of India.
+            </div>
+            <div class="github">Github Repo</div>
+          </div>
+
+          <!-- card-->
+          <div class="card">
+            <div class="card_title center">Hello World</div>
+            <div class="card_desc center">
+              This is the program where we peint Hello World message. The Rules
+              made thereunder, relevant circulars issued by the Ministry of
+              Corporate Affairs and Regulation 44 of the Securities and Exchange
+              Board of India (Listing Obligations and Disclosure Requirements)
+              Regulations, 2015, as amended and Secretarial Standard on General
+              Meetings issued by the Institute of Company Secretaries of India.
+            </div>
+            <div class="github">Github Repo</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills Section-->
+    <div class="skills-container">
+        <h2 class="title center">Skills</h2>
+        <div class="skills-wrapper">
+            <div class="skill-bar">
+                <p class="skill-name">Python</p>
+                <progress class="skill-value" value="0.8"></progress>
             </div>
 
-            <!-- card-->
-            <div class="card">
-                <div class="card_title center">
-                    Hello World
-                </div>
-                <div class="card_desc center">
-                    This is the program where we peint Hello World message. The Rules made thereunder, relevant circulars issued by the Ministry of Corporate Affairs and Regulation 44 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended and Secretarial Standard on General Meetings issued by the Institute of Company Secretaries of India.
-                </div>
-                <div class="github">
-                    Github Repo
-                </div>
+            <div class="skill-bar">
+                <p class="skill-name">Python</p>
+                <progress class="skill-value" value="0.8"></progress>
             </div>
 
-            <!-- card-->
-            <div class="card">
-                <div class="card_title center">
-                    Hello World
-                </div>
-                <div class="card_desc center">
-                    This is the program where we peint Hello World message. The Rules made thereunder, relevant circulars issued by the Ministry of Corporate Affairs and Regulation 44 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended and Secretarial Standard on General Meetings issued by the Institute of Company Secretaries of India.
-                </div>
-                <div class="github">
-                    Github Repo
-                </div>
+            <div class="skill-bar">
+                <p class="skill-name">Python</p>
+                <progress class="skill-value" value="0.8"></progress>
             </div>
 
-            <!-- card-->
-            <div class="card">
-                <div class="card_title center">
-                    Hello World
-                </div>
-                <div class="card_desc center">
-                    This is the program where we peint Hello World message. The Rules made thereunder, relevant circulars issued by the Ministry of Corporate Affairs and Regulation 44 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended and Secretarial Standard on General Meetings issued by the Institute of Company Secretaries of India.
-                </div>
-                <div class="github">
-                    Github Repo
-                </div>
+            <div class="skill-bar">
+                <p class="skill-name">Python</p>
+                <progress class="skill-value" value="0.8"></progress>
             </div>
-
-            <!-- card-->
-            <div class="card">
-                <div class="card_title center">
-                    Hello World
-                </div>
-                <div class="card_desc center">
-                    This is the program where we peint Hello World message. The Rules made thereunder, relevant circulars issued by the Ministry of Corporate Affairs and Regulation 44 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended and Secretarial Standard on General Meetings issued by the Institute of Company Secretaries of India.
-                </div>
-                <div class="github">
-                    Github Repo
-                </div>
-            </div>
-            
         </div>
     </div>
-   </div>
 
-<script src="script.js"></script>
-</body>
+    <!-- Contact Section -->
+    
+
+    <script src="script.js"></script>
+  </body>
 </html>
