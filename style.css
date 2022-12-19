@@ -2,86 +2,120 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-padding-top: 60px;
 }
 
 html{
     font-size: 14px;
+    scroll-behavior: smooth;
 }
 
 body{
+    color: #ffffff;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 .navbar{
-    padding: 20px;
+    padding: 20px 20px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     background: rgba(255, 255, 255, 0.4);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 3;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: space-between;
 }
 
 .navlink{
     text-decoration: none;
-    font-size: 1.4rem;
-    color:rgba(0, 0, 00, 0.7);
+    font-size: 1.6rem;
+    color:black;
     margin-right: 1rem;
+}
 
+.brand{
+    font-size: 1.8rem;
+    color: #363636;
+}
+
+.fixed-top{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+
+.name{
+    font-size: 6rem;
+    font-weight: 300;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .home-container{
-    height: 100vh;
     background: #32a8c8;
-    display:flex;
+    padding: 0 2rem;
+    display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
-.name{
-    font-size: 6rem;
-    color: white;
-    font-weight: 300;
-}
-.intro{
-    font-size: 1.2rem;
+
+.introduction{
+    font-size: 1.4rem;
     color:white;
     font-weight: 300;
     min-height: 2;
 }
 
 .social{
-    padding: 3rem; 
-
+    padding: 3rem;
 }
 
-.icon{
+.socialicons {
     color: white;
+}
+
+.socialicons, .socialicons:hover{
     padding-left: 5px;
     padding-right: 5px;
     margin-right: 4px;
+    transition: all 0.5s;
 }
 
-.icon:hover{
+.socialicons:hover{
     color: black;
+}
+
+.btn-lg{
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.5rem;
+    background-color: rgba(0,0,0,0.562);
+}
+
+.btn-outline-light{
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn-outline-light:hover{
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
 }
 
 .btn{
+    display: inline;
+    font-weight: 400px;
     text-decoration: none;
-    color: white;
-    font-size: 1.25rem;
-    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
     border: 1px solid white;
-    border-radius: 0.3rem;
-    padding: 0.5rem 1.5rem;
-}
-
-.btn:hover{
-    color: black;
-    background-color: white;
 }
 
 /* about me */
